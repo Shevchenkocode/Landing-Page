@@ -1,0 +1,86 @@
+body{
+    font-family: 'Mukta', sans-serif;
+}
+
+.menu_item{
+    font-weight: 700;
+    font-size: 14px;
+
+    a{
+        color: $href-color;
+        text-transform: uppercase;
+    }
+
+    a:hover{
+        color: $href-hover;
+        text-decoration: none;
+    }
+}
+
+.donate{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.phone_text{
+    font-size: 18px;
+}
+
+.phone-text{
+    font-weight: 600;
+}
+
+.phone_digets{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-title{
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $title-color;
+}
+
+.special-title{
+    font-weight: 800;
+    font-size: 28px;
+    color: $special-title;
+}
+
+.special-intro{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.special-button{
+    color: $title-color;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.finance-title{
+    color: $title-color;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.value{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.footer_description{
+    font-weight: 400;
+    font-size: 12px;
+    color: $footer-desc;
+
+    .href_footer{
+        color: $href-color;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

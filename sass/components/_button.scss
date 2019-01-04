@@ -1,0 +1,50 @@
+.donate{
+    width: 120px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20xp;
+    margin-bottom: 20px;
+    background-color: $button-color;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.donate:hover{
+    background-color: $button-hover;
+    cursor: pointer;
+}
+
+.readmore{
+    width: 120px;
+    height: 35px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    background-color: $button-color;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.readmore:hover{
+    background-color: $button-hover;
+    cursor: pointer;
+}
+
+.special-button{
+    display: block;
+    width: 250px;
+    height: 50px;
+    background-color: $special-button;
+    border: 1px solid $special-button-hover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.special-button:hover{
+    background-color: $special-button-hover;
+    color: $special-button;
+}

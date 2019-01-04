@@ -1,0 +1,12 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "Simple Landing Page(Preprocessor SASS)",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/style.css -w",
+    "build": "node-sass sass/main.scss css/style.css --output-style compressed"
+  },
+  "author": "Shevchenkocode (Ihor Shevchenko)",
+  "license": "GPL-2.0-only"
+}

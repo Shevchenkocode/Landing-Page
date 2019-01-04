@@ -1,0 +1,32 @@
+.about{
+    background-color: $about-bg;
+}
+
+.about-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about_text{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.pictures1{
+    display: block;
+    margin-top: 80px;
+}
+
+.pictures2{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.image-item{
+    display: block;
+    margin-top: 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
